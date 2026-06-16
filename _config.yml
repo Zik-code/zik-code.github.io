@@ -3,7 +3,7 @@
 
 # ===================== 网站基础设置 =====================
 title                    : "Ziyi Zhou | Academic Homepage"
-description              : "Undergraduate student at Chongqing Normal University. Research directions: computer vision, hyperspectral image reconstruction, multi-focus image fusion."
+description              : "Research directions: computer vision, hyperspectral image reconstruction, multi-focus image fusion."
 repository               : "Zik-code/zik-code.github.io"
 google_scholar_stats_use_cdn : true
 
