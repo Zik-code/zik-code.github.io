@@ -38,8 +38,7 @@ Oral Presentation, IEEE International Conference on Multimedia and Expo (ICME 20
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Project</div><img src='images/MFFT.png' alt="multi-focus fusion comparison" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+
 
 Multi-layer Semantic Interaction Transformer for Multi-Focus Image Fusion
 
