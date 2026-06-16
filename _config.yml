@@ -1,34 +1,35 @@
 # Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# 该配置文件修改后需重启服务 / 推送代码到 GitHub 才会生效
 
-# Site Settings
+# ===================== 网站基础设置 =====================
 title                    : "Ziyi Zhou | Academic Homepage"
-description              : "Undergraduate student at Chongqing Normal University. My research interests are computer vision and hyperspectral image reconstruction."
+description              : "Undergraduate student at Chongqing Normal University. Research directions: computer vision, hyperspectral image reconstruction, multi-focus image fusion."
 repository               : "Zik-code/zik-code.github.io"
 google_scholar_stats_use_cdn : true
 
-# google analytics
-google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+# 谷歌分析（国内无法访问，留空即可）
+google_analytics_id      :  
 
-# SEO Related
-google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
-baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
+# SEO 站点验证
+# 谷歌站长、必应站长：国内无法访问，留空
+google_site_verification :  
+bing_site_verification   :  
+# 百度搜索资源平台（国内可用，后续注册后补充密钥即可）
+baidu_site_verification  :  
 
-# Site Author
+# ===================== 个人主页核心信息 =====================
 author:
   name             : "Ziyi Zhou"
-  avatar           : "images/android-chrome-512x512.png"
+  # 头像路径：将头像图片放入 images 文件夹后修改文件名
+  avatar           : "images/Ziyi Zhou.png"
   bio              : "Undergraduate, Chongqing Normal University"
   location         : "Chongqing, China"
   employer         : "Chongqing Normal University"
   pubmed           : 
+  # 谷歌学术（国内无法直连，保留格式，后续有账号再替换ID）
   googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "ziyizhou@gmail.com"
+  # 个人邮箱
+  email            : "ziyizhou812@gmail.com"
   researchgate     :  
   uri              :
   bitbucket        :
@@ -37,7 +38,8 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : Zik-code
+  # GitHub 主页
+  github           : "Zik-code"
   google_plus      :
   keybase          :
   instagram        :
@@ -58,8 +60,7 @@ author:
   youtube          :
   wikipedia        :
 
-
-# Reading Files
+# ===================== 文件读取规则 =====================
 include:
   - .htaccess
   - _pages
@@ -77,6 +78,7 @@ exclude:
   - CHANGELOG
   - Capfile
   - Gemfile
+  - Gemfile.lock
   - Gruntfile.js
   - LICENSE
   - README
@@ -89,6 +91,7 @@ exclude:
   - log
   - node_modules
   - package.json
+  - package-lock.json
   - tmp
   - vendor
 keep_files:
@@ -97,16 +100,13 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
-# Conversion
+# ===================== Markdown 渲染配置 =====================
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -117,9 +117,9 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# Defaults
+# ===================== 页面默认布局 =====================
 defaults:
-  # _pages
+  # 所有页面默认使用 default 布局、展示个人资料栏
   - scope:
       path: ""
       type: pages
@@ -127,26 +127,22 @@ defaults:
       layout: default
       author_profile: true
 
-
-# Sass/SCSS
+# ===================== Sass 样式编译 =====================
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed  # 编译为压缩CSS，提升加载速度
 
-
-# Outputting
+# ===================== 链接与时区 =====================
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai  # 时区设为北京时间，无需修改
 
-
-# Plugins
+# ===================== 插件配置 =====================
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
-# mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
@@ -154,10 +150,14 @@ whitelist:
   - jekyll-feed
   - jemoji
 
-
-# HTML Compression
-# - http://jch.penibelst.de/
+# ===================== HTML 压缩配置 =====================
+# 本地开发环境关闭压缩，线上自动开启，兼顾调试与访问速度
 compress_html:
   clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  blanklines: false
+  profile: false
+  startings: []
   ignore:
     envs: development
