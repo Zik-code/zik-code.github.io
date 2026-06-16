@@ -17,9 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Ziyi Zhou, an undergraduate student majoring in Computer Science and Technology at Chongqing Normal University. I hold the qualification for postgraduate recommendation with an average GPA above 4.15/5, and I passed CET-6 with a score of 535.
-
-My research focuses on two core directions in computer vision: **hyperspectral image reconstruction** and **multi-focus image fusion**. I have rich experience in deep learning model design, Transformer architecture optimization, and image quality evaluation. I am the first author of one paper accepted by ICME 2026 (CCF B conference, Oral presentation). Meanwhile, I participated in natural science foundation projects related to multi-focus fusion.
+I am Ziyi Zhou, an undergraduate student majoring in Computer Science and Technology at Chongqing Normal University. My overall GPA ranks 1st in my major, accounting for the top 0.7%. My research focuses on two core directions in computer vision: **hyperspectral image reconstruction** and **multi-focus image fusion**. I have rich experience in deep learning model design. I am the first author of one paper accepted by ICME 2026 (CCF B conference, Oral presentation). Meanwhile, I participated in a general program of Chongqing Natural Science Foundation related to multi-focus fusion.
 
 I am looking forward to academic communication and research cooperation.
 
@@ -28,24 +26,19 @@ I am looking forward to academic communication and research cooperation.
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICME 2026</div><img src='images/fusion_exp.png' alt="multi-focus fusion experiment" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICME 2026</div><img src='images/Hypercode.png' alt="multi-focus fusion experiment" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Revitalizing Hyperspectral Image Reconstruction via Cross-Domain Aligned Generative Codebook
 
 **Ziyi Zhou**$^1$, Sangsha Fang$^2$, Huiyu Zhai$^3$, Xingxing Yang$^{4*}$
 
-$^1$School of Computer and Information Science, Chongqing Normal University, China
-$^2$School of Information Engineering, Wenzhou Business College, China
-$^3$School of Computer Science and Engineering, University of Electronic Science and Technology of China, China
-$^4$Department of Computer Science, Hong Kong Baptist University, Hong Kong SAR
-
 Oral Presentation, IEEE International Conference on Multimedia and Expo (ICME 2026, CCF B)
 - This work designs a cross-domain alignment generative framework to reduce spectral distortion and spatial artifacts, outperforming mainstream SOTA methods on NTIRE2022 and ICVL datasets.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Project</div><img src='images/mfif_result.png' alt="multi-focus fusion comparison" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Project</div><img src='images/MFFT.png' alt="multi-focus fusion comparison" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Multi-layer Semantic Interaction Transformer for Multi-Focus Image Fusion
