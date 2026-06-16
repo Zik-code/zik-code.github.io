@@ -22,7 +22,7 @@ redirect_from:
 
 I am Ziyi Zhou, an undergraduate student majoring in Computer Science and Technology at Chongqing Normal University. My overall GPA ranks 1st in my major, accounting for the top 0.7%. My research focuses on two core directions in computer vision: **hyperspectral image reconstruction** and **multi-focus image fusion**. I have rich experience in deep learning model design. I am the first author of one paper accepted by ICME 2026 (CCF B conference, Oral presentation). Meanwhile, I participated in a general program of Chongqing Natural Science Foundation related to multi-focus fusion.
 
-I am looking forward to academic communication and research cooperation.
+I am looking forward to academic communication and research cooperation.😊😊😊
 
 # 🔥 News
 - *2026.04*: One first-author paper accepted by ICME 2026 (CCF-B, Oral Presentation)
