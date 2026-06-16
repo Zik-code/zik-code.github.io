@@ -22,7 +22,7 @@ redirect_from:
 
 I am Ziyi Zhou, an undergraduate student majoring in Computer Science and Technology at Chongqing Normal University. My overall GPA ranks 1st in my major, accounting for the top 0.7%. My research focuses on two core directions in computer vision: **hyperspectral image reconstruction** and **multi-focus image fusion**. I have rich experience in deep learning model design. I am the first author of one paper accepted by ICME 2026 (CCF B conference, Oral presentation). Meanwhile, I participated in a general program of Chongqing Natural Science Foundation related to multi-focus fusion.
 
-I am looking forward to academic communication and research cooperation.😊😊😊
+I am looking forward to academic communication and research cooperation.
 
 # 🔥 News
 - *2026.04*: One first-author paper accepted by ICME 2026 (CCF-B, Oral Presentation)
@@ -36,10 +36,6 @@ Revitalizing Hyperspectral Image Reconstruction via Cross-Domain Aligned Generat
 
 **Ziyi Zhou**$^1$, Sangsha Fang$^2$, Huiyu Zhai$^3$, Xingxing Yang$^{4*}$
 
-$^1$School of Computer and Information Science, Chongqing Normal University, China
-$^2$School of Information Engineering, Wenzhou Business College, China
-$^3$School of Computer Science and Engineering, University of Electronic Science and Technology of China, China
-$^4$Department of Computer Science, Hong Kong Baptist University, Hong Kong SAR
 
 Oral Presentation, IEEE International Conference on Multimedia and Expo (ICME 2026, CCF B)
 - This work designs a cross-domain alignment generative framework to reduce spectral distortion and spatial artifacts, outperforming mainstream SOTA methods on NTIRE2022 and ICVL datasets.
